@@ -1,0 +1,26 @@
+eureka:
+  instance:
+      hostname: localhost
+  client:
+    serviceUrl:
+     defaultZone: http://localhost:10001/eureka/ #注册中心url
+
+server:
+  port: 20001
+
+management:
+  health:
+    mail:
+      enabled: false  #disable /headth
+
+#info 的信息将作为 actuator 的/info 输出
+info:
+  app:
+    name: ${spring.application.name}
+    description: ${spring.application.description}
+    version: ${spring.application.version}
+
+logging:
+  level:
+    root: INFO
+    cn.tac: DEBUG

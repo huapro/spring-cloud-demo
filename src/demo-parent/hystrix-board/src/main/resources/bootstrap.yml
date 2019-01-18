@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hystrix-dashboard
+    description: hystrix dashboard
+    version: SNAPSHOT

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: provider1  #项目名称，将作为eureka的注册实例名
+    description: 测试provider1
+    version: SNAPSHOT

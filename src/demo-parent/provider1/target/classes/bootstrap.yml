@@ -1,0 +1,9 @@
+spring:
+  application:
+    #服务名称，将作为eureka的注册实例名，也是 zuul 网关调用时的依据
+    #实例名称相同的应用将被注册为一个服务的多个节点，被调用时可进行负载均衡
+    name: provider1
+
+    #这些是自定义配置，对 spring cloud 的配置无影响
+    description: 测试provider1
+    version: SNAPSHOT

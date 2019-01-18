@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: consumer
+    description: 测试consumer
+    version: SNAPSHOT

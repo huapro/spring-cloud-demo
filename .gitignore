@@ -1,0 +1,12 @@
+#忽略 idea 的 libraries 目录
+libraries/
+
+#忽略日志文件
+*.log
+*.log.zip
+
+/target/
+/out/
+
+workspace.xml
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/consumer/consumer.iml" filepath="$PROJECT_DIR$/demo-parent/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-dependencies/demo-dependencies.iml" filepath="$PROJECT_DIR$/demo-dependencies/demo-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/demo-parent.iml" filepath="$PROJECT_DIR$/demo-parent/demo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/discovery-eureka/discovery-eureka.iml" filepath="$PROJECT_DIR$/demo-parent/discovery-eureka/discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/gateway/gateway.iml" filepath="$PROJECT_DIR$/demo-parent/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/hystrix-board/hystrix-board.iml" filepath="$PROJECT_DIR$/demo-parent/hystrix-board/hystrix-board.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/provider1/provider1.iml" filepath="$PROJECT_DIR$/demo-parent/provider1/provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/provider1-api/provider1-api.iml" filepath="$PROJECT_DIR$/demo-parent/provider1-api/provider1-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/provider1-client/provider1-client.iml" filepath="$PROJECT_DIR$/demo-parent/provider1-client/provider1-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-parent/provider1-node2/provider1-node2.iml" filepath="$PROJECT_DIR$/demo-parent/provider1-node2/provider1-node2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
+    </modules>
+  </component>
+</project>

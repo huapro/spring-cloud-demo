@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-node1" />
+        <module name="consumer" />
+        <module name="discovery-eureka" />
+        <module name="gateway" />
+        <module name="hystrix-board" />
+        <module name="hystrix-dashb" />
+        <module name="hystrix-dashboard" />
+        <module name="provider-node1" />
+        <module name="provider1" />
+        <module name="provider1-api" />
+        <module name="provider1-client" />
+        <module name="provider1-node2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-node1" target="1.5" />
+      <module name="consumer" target="1.5" />
+      <module name="dashboard" target="1.5" />
+      <module name="demo-dependencies" target="1.5" />
+      <module name="demo-parent" target="1.5" />
+      <module name="discovery-eureka" target="1.5" />
+      <module name="gateway" target="1.5" />
+      <module name="h-dashboard" target="1.5" />
+      <module name="hystrix-board" target="1.5" />
+      <module name="hystrix-dashb" target="1.5" />
+      <module name="hystrix-dashbaord" target="1.5" />
+      <module name="hystrix-dashboard" target="1.5" />
+      <module name="micro-hystrix-dashboard" target="1.5" />
+      <module name="nnnn" target="1.5" />
+      <module name="provider-node1" target="1.5" />
+      <module name="provider1" target="1.5" />
+      <module name="provider1-api" target="1.5" />
+      <module name="provider1-client" target="1.5" />
+      <module name="provider1-node2" target="1.5" />
+      <module name="spring-cloud-demo" target="1.5" />
+      <module name="test-maven" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

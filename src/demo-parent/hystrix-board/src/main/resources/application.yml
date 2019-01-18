@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+     defaultZone: http://localhost:10001/eureka/
+
+server:
+  port: 10003
+
+management:
+  health:
+    mail:
+      enabled: false  #disable /headth
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: ${spring.application.description}
+    version: ${spring.application.version}
+
+logging:
+  level:
+    root: INFO
+    cn.tac: DEBUG
